@@ -1,0 +1,92 @@
+.gpt3__whatgpt3 {
+  display: flex;
+  gap: 91px;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--color-footer);
+  filter: drop-shadow(0 4px 4px 0 rgba(0, 0, 0, 0.25));
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+}
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-title h1{
+  max-width: 180px;
+}
+.gpt3__whatgpt3-heading {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.gpt3__whatgpt3-heading h1 {
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 45px;
+  max-width: 510px;
+}
+
+.gpt3__whatgpt3-heading p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+.gpt3__whatgpt3-container {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.gpt3__whatgpt3-container .gpt3__features-container__feature {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  max-width: 590px;
+}
+@media screen and (max-width: 1470px) {
+   .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    max-width: 350px;
+   }
+}
+@media screen and (max-width : 1050px) {
+  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+   display: flex;
+   align-items: flex-start;
+  }
+  .gpt3__whatgpt3 {
+   gap: 45px;
+ }
+}
+@media screen and (max-width: 980px) {
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+   max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+ 
+  .gpt3__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+

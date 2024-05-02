@@ -79,6 +79,9 @@
 }
 
 @media screen and (max-width : 1050px) {
+  .gpt3__navbar {
+    padding: 2rem 4rem;
+}
   .gpt3__navbar-links_container{
     display: none;
   }
@@ -87,18 +90,10 @@
   }
 }
 
-@media screen and (max-width : 700px) {
-  .gpt3__navbar{
-    padding: 2rem 4rem;
-    
-  }
- 
- 
-}
+
 @media screen and (max-width : 500px) {
   .gpt3__navbar{
     padding: 2rem;
-    
   }
   .gpt3__navbar-menu_container{
     top: 20px;

@@ -30,7 +30,7 @@ a {
   padding: 4rem 6rem;
 }
 .section__margin {
-  padding: 4rem 6rem;
+  margin: 1.5rem 6rem;
 }
 .scale-up-center {
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
