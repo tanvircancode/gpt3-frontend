@@ -58,7 +58,11 @@
   line-height: 24px;
   text-align: left;
 }
-
+@media screen and (min-width:1440px) {
+  .gpt3__features {
+      justify-content: center;
+  }
+}
 @media screen and (max-width: 1060px) {
   .gpt3__features {
     gap: 80px;
