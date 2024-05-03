@@ -12,7 +12,7 @@
     rgba(27, 120, 222, 1) 100%
   );
 }
-.gpt3__whatgpt3-feature .gpt3__features-container__feature-title h1{
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-title h1 {
   max-width: 180px;
 }
 .gpt3__whatgpt3-heading {
@@ -53,27 +53,26 @@
   max-width: 590px;
 }
 @media screen and (max-width: 1470px) {
-   .gpt3__whatgpt3-container .gpt3__features-container__feature {
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
     max-width: 350px;
-   }
+  }
 }
-@media screen and (max-width : 1050px) {
+@media screen and (max-width: 1050px) {
   .gpt3__whatgpt3-feature .gpt3__features-container__feature {
-   display: flex;
-   align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
   }
   .gpt3__whatgpt3 {
-   gap: 45px;
- }
+    gap: 45px;
+  }
 }
 @media screen and (max-width: 980px) {
   .gpt3__whatgpt3-container .gpt3__features-container__feature {
-   max-width: 310px;
+    max-width: 310px;
   }
 }
 
 @media screen and (max-width: 850px) {
- 
   .gpt3__whatgpt3-heading {
     flex-direction: column;
     align-items: flex-start;
@@ -89,4 +88,3 @@
     line-height: 32px;
   }
 }
-
