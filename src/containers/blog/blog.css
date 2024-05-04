@@ -1,0 +1,12 @@
+.gpt3__blog {
+  display: flex;
+  flex-direction: column;
+  gap: 116px;
+}
+.gpt3__blog-heading {
+  font-family: var(--font-family);
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
